@@ -19,8 +19,14 @@ var objString = ({}).toString(); // "[object Object]"
 ```js
 String.fromCharCode(104,101,108,108,111) //"hello"
 ```
+- Creating a String object using `new` keyword is allowed, but is not recommended:
+```js
+var objectString = new String("Yes, I am a String object");
+typeof objectString;//"object"
+typeof objectString.valueOf();//"string"
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjE1NDMzMV19
+eyJoaXN0b3J5IjpbLTE3NjkzNjE4NzBdfQ==
 -->
