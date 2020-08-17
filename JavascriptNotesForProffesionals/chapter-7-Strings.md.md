@@ -25,8 +25,15 @@ var objectString = new String("Yes, I am a String object");
 typeof objectString;//"object"
 typeof objectString.valueOf();//"string"
 ```
+#### Concatenating Strings:
+
+- using `+` operator:
+```js
+var foo = "Foo";
+var bar = "Bar";
+var string
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkzNjE4NzBdfQ==
+eyJoaXN0b3J5IjpbMjY0MzIwOTA3XX0=
 -->
