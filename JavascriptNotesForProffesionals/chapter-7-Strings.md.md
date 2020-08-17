@@ -55,8 +55,13 @@ function reverseString(str) {
 reverseString('string');
  // "gnirts"
 ```
-> However, this will work only so long as the string being reversed does not contain surrogate pairs. Astral symbols,
+> However, this will work only so long as the string being reversed does not contain surrogate pairs (زوج بديل) ,  Astral symbols (رموز نجمية).
+> ```js
+> '?????.'.split('').reverse().join(''); //fails
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxODAxODE0LDE4MTQwMTc2MV19
+eyJoaXN0b3J5IjpbLTE5NTYxMTgwNjYsMTgxNDAxNzYxXX0=
 -->
