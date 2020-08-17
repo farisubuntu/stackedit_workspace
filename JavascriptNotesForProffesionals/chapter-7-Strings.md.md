@@ -46,9 +46,17 @@ var greet=`Hello ${place}!`; // "Hello World!"
 `a\\b` // = a\b
 String.raw`a\\b` // = a\\b
 ```
-
+### Section 7.2: Reverse String:
+The most "popular" way of reversing a string in JavaScript is:
+```js
+function reverseString(str) {
+ return str.split('').reverse().join('');
+}
+reverseString('string');
+ // "gnirts"
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA2MzA2MDddfQ==
+eyJoaXN0b3J5IjpbMTgxNDAxNzYxXX0=
 -->
