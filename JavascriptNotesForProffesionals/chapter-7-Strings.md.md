@@ -39,9 +39,16 @@ console.log(foo+bar+s+n+boolean); // FooBarstring44true
 - Using template literals (backticks) `hello`:
 ```js
 var place=`World`;
-var greet=`Hello ${place}!`; // "Hello
+var greet=`Hello ${place}!`; // "Hello World!"
+```
+- Use `String.raw` to get backslashes to be in the string without modification.
+```js
+`a\\b` // = a\b
+String.raw`a\\b` // = a\\b
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg0NzkyNjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDA2MzA2MDddfQ==
 -->
