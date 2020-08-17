@@ -36,9 +36,12 @@ var n=44;
 var boolean=true;
 console.log(foo+bar+s+n+boolean); // FooBarstring44true
 ```
-
+- Using template literals (backticks) `hello`:
+```js
+var place=`World`;
+var greet=`Hello ${place}!`; // "Hello
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzI2MDQyNV19
+eyJoaXN0b3J5IjpbLTE5Njg0NzkyNjNdfQ==
 -->
