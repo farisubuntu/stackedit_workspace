@@ -15,7 +15,12 @@ var intString = (5232).toString(); // "5232"
 var booleanString = (false).toString(); // "false"
 var objString = ({}).toString(); // "[object Object]"
 ```
+- `String.fromCharCode` method:
+```js
+String.fromCharCode(104,101,108,108,111) //"hello"
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI2MzI4MjNdfQ==
+eyJoaXN0b3J5IjpbLTQyMjE1NDMzMV19
 -->
