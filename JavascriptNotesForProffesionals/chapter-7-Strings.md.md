@@ -31,9 +31,14 @@ typeof objectString.valueOf();//"string"
 ```js
 var foo = "Foo";
 var bar = "Bar";
-var string
+var s="string";
+var n=44;
+var boolean=true;
+console.log(foo+bar+s+n+boolean); // FooBarstring44true
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MzIwOTA3XX0=
+eyJoaXN0b3J5IjpbLTYzMzI2MDQyNV19
 -->
