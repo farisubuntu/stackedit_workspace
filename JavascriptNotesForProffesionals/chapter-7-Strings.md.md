@@ -55,8 +55,8 @@ function reverseString(str) {
 reverseString('string');
  // "gnirts"
 ```
-
+> However, this will work only so long as the string being reversed does not contain surrogate pairs. Astral symbols,
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDAxNzYxXX0=
+eyJoaXN0b3J5IjpbNjcxODAxODE0LDE4MTQwMTc2MV19
 -->
